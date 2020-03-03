@@ -31,6 +31,27 @@ box{
     <0,0,-2><0.5, 5, 0.5>
 }
 
+    #declare E =
+    union{ 
+    object
+    {
+        MyBox
+        translate <3, 2, 7.5> 
+        rotate<0,25,0>
+    } 
+    object
+    {
+        MyBox
+        translate <6, 3, 3> 
+        rotate<0,-25,0>
+    }
+    object
+    {
+        MyBox
+        translate <3.5, 3, -5.5> 
+        rotate<0,-100,0> 
+    } 
+    } 
     #declare A =
     union{ 
     object
@@ -51,7 +72,7 @@ box{
         translate <3.5, 3, -5.5> 
         rotate<0,-100,0> 
     } 
-    }  
+    }   
     
 
 difference{ 
@@ -70,6 +91,16 @@ difference{
         rotate<90,0,0>   
         translate <0, 10, 0> 
     } 
+    object
+    {  
+        E
+    }
+    object
+    {
+        E
+        rotate<90,0,0>   
+        translate <0, 10, 0> 
+    }
 
     
 } 
