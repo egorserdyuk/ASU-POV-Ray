@@ -1,3 +1,9 @@
+// POV-Ray 3.6/3.7 include file "Street_10.inc"
+// created by Friedrich A, Lohmueller, Dec-2005
+// update July-2013
+// homepage: http://www.f-lohmueller.de/
+// email: Friedrich.Lohmueller_aT_t-online.de
+//------------------------------------------------------------------------
 #ifndef( Street_10_Inc_Temp)
 #declare Street_10_Inc_Temp = version;
 #version 3.6;

@@ -1,7 +1,3 @@
-// POV-Ray 3.6/3.7 include file "Truck0.inc"                                                                                                                                 // author: Friedrich A, Lohmueller, Jan-2006, Dec-2012
-// homepage: http://www.f-lohmueller.de/
-// email: Friedrich.Lohmueller_aT_t-online.de
-//------------------------------------------------------------------------
 #ifndef( Truck0_Inc_Temp)
 #declare Truck0_Inc_Temp = version;
 #version 3.6;
