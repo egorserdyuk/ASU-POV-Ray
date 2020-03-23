@@ -106,12 +106,12 @@ rotate<0,0,0> translate<3.00,0,-1.5>}
 
 #declare Hx = 2.00;
 #declare Hy = 3.50;
-#declare Hz = 6.00;
+#declare Hz = 13.00;
 #declare Roof_Angle = 40; 
 #declare Wall_D = 0.20 ;// the thickness of the Wall 
 
 #declare Roof_D = 0.10; // the thickness of the roof
-#declare Roof_O = 0.20; // overhang 
+#declare Roof_O = 0.10; // overhang 
 #declare Roof_L = Hx+0.80;// try it !!! 
 // ---------------------------------------------------- Window_Positions
 // front positions 
@@ -197,7 +197,7 @@ union{
 
 // the walls caved out ----------------------- the Walls
 difference{
-box { <-Hx,0,0>,< Hx,Hy,Hz>   
+box { <-Hx,0,20>,< Hx,Hy,Hz>   
       texture {Wall_Texture_1}  
 //    no_shadow
     } // end of box --------- 
@@ -205,13 +205,13 @@ box { <-Hx,0,0>,< Hx,Hy,Hz>
 plane{ <0,-1,0>,0 
       texture {Wall_Texture_1}  
        rotate<0,0,Roof_Angle>
-       translate<0,Hy,0>
+       translate<0,Hy,13>
      }
 
 plane{ <0,-1,0>,0 
       texture {Wall_Texture_1}  
        rotate<0,0,-Roof_Angle>
-       translate<0,Hy,0>
+       translate<0,Hy,13>
      }
  // inside caved out
 box { <-Hx+Wall_D,0.10,Wall_D>,
@@ -387,4 +387,4 @@ union
 ////////////////////////////////
 
 object{tree
-translate<4, 0, 10>}
+translate<6, 0, 10>}
