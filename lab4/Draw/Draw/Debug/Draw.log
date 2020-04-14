@@ -1,0 +1,9 @@
+﻿  Draw.cpp
+C:\Users\evafa\Desktop\ASU-POV-Ray\lab4\Draw\Draw\Draw.cpp(97,24): error C2065: IDC_KG4: необъявленный идентификатор
+C:\Users\evafa\Desktop\ASU-POV-Ray\lab4\Draw\Draw\Draw.cpp(106,44): error C2065: IDC_KG4: необъявленный идентификатор
+C:\Users\evafa\Desktop\ASU-POV-Ray\lab4\Draw\Draw\Draw.cpp(145,35): error C2065: IDI_KG4: необъявленный идентификатор
+C:\Users\evafa\Desktop\ASU-POV-Ray\lab4\Draw\Draw\Draw.cpp(148,22): error C2065: IDC_KG4: необъявленный идентификатор
+C:\Users\evafa\Desktop\ASU-POV-Ray\lab4\Draw\Draw\Draw.cpp(229,16): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\evafa\Desktop\ASU-POV-Ray\lab4\Draw\Draw\Draw.cpp(283,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\evafa\Desktop\ASU-POV-Ray\lab4\Draw\Draw\Draw.cpp(291,248): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\evafa\Desktop\ASU-POV-Ray\lab4\Draw\Draw\Draw.cpp(291,113): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
